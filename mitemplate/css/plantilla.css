@@ -1,0 +1,81 @@
+body{
+font-family: 'Slabo 27px', serif;
+}
+header{
+margin: 10px 0 30px;
+}
+/*Menu principal*/
+#jux_megamenucss3 .megamenu ul.level0 li.megacss3 span.megacss3{
+padding: 10px;
+}
+/*Ruta de navegacion*/
+.breadcrumb > li > .icon-location{display: none;}
+/*Categorias Virtuemart*/
+.orderlistcontainer .title{display: none;}
+.orderby-displaynumber{border: 0;}
+.browse-view .product h2{
+font-size: 1.307em;
+line-height: 20px;
+font-weight: normal;
+text-align: center;
+}
+.browse-view .product h2 a{
+color: #242424;
+}
+.browse-view .product-price{
+float: none;
+text-align: center;
+font-weight: bold;
+font-family: 'Droid Sans', sans-serif;
+font-weight: 700; 
+}
+/**Productos**/
+span.addtocart-button input.addtocart-button {
+display: block;
+padding: 1em 2em;
+margin-left: 15px;
+font-size: 1em;
+font-family: 'Droid Sans', sans-serif;
+font-weight: 400; 
+letter-spacing: 1px;
+line-height: 1em;
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+color: white;
+background-color: #fa3c7a;
+border: 1px solid #e4376f;
+border-radius: 3px;
+}
+.productdetails h1{
+border-bottom: 1px solid #cccccc;
+padding-bottom: 0.6em;
+font-size: 24px;
+font-weight: normal;
+}
+.productdetails h2, .productdetails .title{
+font-size: 13px;
+text-transform: uppercase;
+color: #242424;
+font-weight: 700;
+font-family: 'Droid Sans', sans-serif;
+line-height: 40px;
+margin-bottom: 10px;
+border-bottom: 1px solid #d2d2d2;
+display: block;
+}
+/**Responsive**/
+@media (min-width:987px){
+.vm-product-title{
+height: 50px;
+}
+}
+@media (max-width:767px){
+.browse-view .product{
+margin-bottom: 30px;
+border-bottom: 1px solid #e9e8e8;
+}
+.horizontal-separator{
+background: none;
+}
+}
